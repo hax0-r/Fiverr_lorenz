@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
-    <link rel="shortcut icon" href="/Docs/Assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -17,14 +16,202 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
 
-    <h1>Hello World!</h1>
-    
+
+    <div class="fixed bottom-28 right-0 overflow-hidden flex flex-col gap-3">
+        <a href="">
+            <div
+                class="flex border  items-center translate-x-[77%] hover:translate-x-[0%] transition-all duration-500 gap-4 py-2 px-3 bg-[#f8931f] hover:bg-[#7c6498] rounded-l-md text-white">
+                <i class="fa-solid fa-phone text-3xl py-[5px]"></i>
+                <p class="text-lg font-semibold pl-1 "> 03379 / 582 82 82</p>
+            </div>
+        </a>
+        <a href="">
+            <div
+                class="flex border items-center translate-x-[77%] hover:translate-x-[0%] transition-all duration-500 gap-4 py-2 px-3 bg-[#f8931f] hover:bg-[#7c6498] rounded-l-md text-white">
+                <i class="fa-solid fa-envelope text-4xl "></i>
+                <div class="">
+                    <p class="text-lg font-bold max-w-[12rem] leading-tight">E-Mail schreiben <span
+                            class="font-medium text-nowrap">An: buero@lorenzkg.de</span></p>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div id="scrollTopButton"
+        class="fixed hidden bg-[#7c6498] fastFadeIn right-5 bottom-5 cursor-pointer transition-all duration-500 hover:bg-[#674989] w-14 h-14 rounded-full flex items-center justify-center">
+        <i class="fa-solid fa-chevron-up text-white text-2xl"></i>
+    </div>
+
+    <!-- =============Components============ -->
+
+
+    <p class="bg-[#f2f2f2] text-zinc-500 text-center py-2 px-4 text-sm ">Lorenz Malermeister
+        Fassadensanierungs- GmbH &nbsp; • &nbsp; Schillerstr. 25, 12529 Schönefeld bei Berlin &nbsp; • &nbsp; Telefon: <a
+            class="hover:underline hover:text-black transition-all duration-500" href="">03379 / 582 82 82</a> &nbsp; • &nbsp; Mail:
+        <a class="hover:underline hover:text-black transition-all duration-500"
+            href="mailto:buero@lorenzkg.de">buero@lorenzkg.de</a>
+    </p>
+
+    <div class="md:px-10 px-5 py-8">
+        <div class="max-w-7xl w-full mx-auto">
+            <div class="flex items-center justify-between gap-3">
+                <a href="/index.html" class="flex md:items-center md:gap-5 gap-3 md:flex-row flex-col">
+                    <img src="/Docs/Assets/Images/Home/logo.png" class="md:max-w-[285px] max-w-[200px] w-full" alt="">
+                    <p class="font-semibold text-[#7f565a] max-w-[15rem] leading-tight md:leading-normal w-full">MALERMEISTER & TECHNIKER SEIT ÜBER 40
+                        JAHREN</p>
+                </a>
+
+                <ul class="xl:flex hidden items-center gap-5 font-semibold text-lg text-[#f8931f]">
+                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">ÜBER UNS</a>
+                    </li>
+                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">REFERENZEN</a>
+                    </li>
+                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">SERVICE</a></li>
+                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">AUSBILDUNG</a>
+                    </li>
+                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">GALERIE</a></li>
+                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">KONTAKT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-10 xl:block hidden bg-[#7c6498] sticky top-0">
+        <div class="max-w-7xl w-full mx-auto">
+            <ul class="flex items-center gap-10 font-semibold text-[#ffffff]">
+                <li id="dropDown" class="relative cursor-pointer"><a
+                        class="hover:text-[#f8931f] transition-all py-5 duration-500 block"
+                        id="arrowRotate">FASSADENSANIERUNG <i
+                            class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
+                    <ul class="absolute bg-[#8670A0] transition-all duration-500 rounded-b-md overflow-hidden">
+                        <li><a href="#"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Beschichtungssysteme</a>
+                        </li>
+                        <li><a href="#"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Rissarmierung</a>
+                        </li>
+                        <li><a href="#"
+                                class=" transition-all p-4 px-5 text-nowrap hover:bg-[#63517b] border-b border-white duration-500 block">Putzarbeiten
+                                / Rissursachen</a>
+                        </li>
+                        <li><a href="#"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Prüfmethoden</a>
+                        </li>
+                        <li><a href="#"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Algenbekämpfung</a>
+                        </li>
+                        <li><a href="#"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Graffitibekämpfung</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="dropDown" class="relative cursor-pointer"><a
+                        class="hover:text-[#f8931f] transition-all py-5 duration-500 block"
+                        id="arrowRotate">BETONSANIERUNG<i
+                            class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
+                    <ul class="absolute bg-[#8670A0] transition-all duration-500 rounded-b-md overflow-hidden">
+                        <li><a href="#"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Arbeitsschritte</a>
+                        </li>
+                        <li><a href="#"
+                                class=" transition-all text-nowrap p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
+                                zur Betonsanierung</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="dropDown" class="relative cursor-pointer"><a
+                        class="hover:text-[#f8931f] transition-all py-5 duration-500 block"
+                        id="arrowRotate">BALKONSANIERUNG <i
+                            class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
+                    <ul class="absolute bg-[#8670A0] transition-all duration-500 rounded-b-md overflow-hidden">
+                        <li><a href="#"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Balkonabdichtung</a>
+                        </li>
+                        <li><a href="#"
+                                class=" transition-all text-nowrap p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
+                                zu Balkonabdichtungen</a>
+                        </li>
+                        <li><a href="#"
+                                class=" transition-all p-4 px-5 text-nowrap hover:bg-[#63517b] border-b border-white duration-500 block">Beschreibung
+                                der Problemfelder...</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#" class="hover:text-[#f8931f] transition-all py-5 duration-500 block">PUTZSANIERUNG</a>
+                </li>
+                <li><a href="#" class="hover:text-[#f8931f] transition-all py-5 duration-500 block">STUCKSANIERUNG</a>
+                </li>
+            </ul>
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <div class="bg-[#f8931f] p-5">
+        <div class="max-w-7xl w-full mx-auto flex items-center xl:justify-center xl:flex-nowrap gap-x-20 sm:gap-y-10 gap-y-5 flex-wrap">
+            <div class="">
+                <p class="font-semibold">Address</p>
+                <p class=" md:text-2xl text-lg text-zinc-800">Schillerstr. 25, 12529 Schönfeld bei Berlin</p>
+            </div>
+            <div class="">
+                <p class="font-semibold">Telefon</p>
+                <p class=" md:text-2xl text-lg text-zinc-800">03379 / 582 82 82</p>
+            </div>
+            <div class="">
+                <p class="font-semibold">Telefax</p>
+                <p class=" md:text-2xl text-lg text-zinc-800">03379 / 582 82 83</p>
+            </div>
+            <div class="">
+                <p class="font-semibold">E-Mail</p>
+                <p class=" md:text-2xl text-lg text-zinc-800">buero@lorenzkg.de</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <iframe class="w-full md:h-[25rem] h-[20rem]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14159999.604600862!2d58.34639765869034!3d29.949782516630794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1728449406296!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="bg-[#7c6498]">
+        <p class="max-w-7xl w-full mx-auto text-white p-2">
+            © 2024 Lorenz Malermeister Fassadensanierungs- GmbH | Webdesign: <a href="" class="hover:underline">Zahn Internet Consult</a>
+        </p>
+    </div>
+
+
+    <div class="">
+        
+    </div>
+
+
 </body>
 
 <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
 <script>
+
+    const scrollTopButton = document.getElementById('scrollTopButton');
+
+    window.onscroll = function () {
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            scrollTopButton.classList.remove('hidden');
+        } else {
+            scrollTopButton.classList.add('hidden');
+        }
+    };
+
+    scrollTopButton.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 
     const lenis = new Lenis()
 
