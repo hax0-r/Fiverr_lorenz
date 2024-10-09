@@ -68,21 +68,53 @@
         transform: rotate(180deg);
     }
 }
+
 #dropDown {
-    ul{
+    ul {
         opacity: 0;
         top: 5rem;
         z-index: -10;
     }
 }
+
 #dropDown:hover {
-    ul{
+    ul {
         z-index: 50;
         top: 4rem;
         opacity: 1;
     }
 }
 
-img,button,a,iframe{
+img,
+button,
+a,
+iframe {
     user-select: none;
+}
+
+#hoverToShowData:hover #data {
+    transform: translateY(0);
+
+}
+#hoverToShowData:hover #data img {
+    opacity: 0;    
+}
+
+.borderWidth::before {
+    content: '';
+    border-style: solid;
+    border-width: 235px 163px 0 0;
+    border-color: #71588c transparent transparent transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.borderWidth2::before {
+    content: '';
+    border-style: solid;
+    border-width: 235px 163px 0 0;
+    border-color: #f7931e transparent transparent transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
