@@ -74,11 +74,31 @@
         opacity: 0;
         top: 5rem;
         z-index: -10;
+        display: none;
     }
 }
 
 #dropDown:hover {
     ul {
+        display: block;
+        z-index: 50;
+        top: 4rem;
+        opacity: 1;
+    }
+}
+
+#resDropDown {
+    ul {
+        opacity: 0;
+        top: 5rem;
+        z-index: -10;
+        display: none;
+    }
+}
+
+#resDropDown:hover {
+    ul {
+        display: block;
         z-index: 50;
         top: 4rem;
         opacity: 1;
