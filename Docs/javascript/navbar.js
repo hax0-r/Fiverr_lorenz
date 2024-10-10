@@ -21,7 +21,7 @@ document.getElementById("navbar").innerHTML = `
     </div>
 
     <div id="scrollTopButton"
-        class="fixed hidden bg-[#7c6498] fastFadeIn right-5 bottom-5 cursor-pointer transition-all duration-500 hover:bg-[#674989] w-14 h-14 rounded-full flex items-center justify-center">
+        class="fixed hidden z-40 border bg-[#7c6498] fastFadeIn right-5 bottom-5 cursor-pointer transition-all duration-500 hover:bg-[#674989] w-14 h-14 rounded-full flex items-center justify-center">
         <i class="fa-solid fa-chevron-up text-white text-2xl"></i>
     </div>
 
