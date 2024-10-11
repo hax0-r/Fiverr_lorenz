@@ -11,8 +11,34 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/Docs/Style/global.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
 </head>
+<style>
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: #f8a322;
+    }
+</style>
 
 <body>
 
@@ -144,6 +170,64 @@
             </div>
 
         </div>
+
+
+        <div class="flex items-center md:gap-10 gap-5 mt-10 md:flex-row flex-col">
+            <div class="md:max-w-[70%] w-full border-2 relative rounded-md py-2">
+
+
+
+                <!-- <button
+                    class="bg-[#f8a322] w-10 h-10 flex items-center absolute -right-5 top-7 justify-center rounded-full">
+                    <i class="fa-solid fa-angle-right text-white text-xl "></i>
+                </button>
+                <button
+                    class="bg-[#f8a322] w-10 h-10 flex items-center absolute -right-5 bottom-7 justify-center rounded-full">
+                    <i class="fa-solid fa-angle-right text-white text-xl rotate-180"></i>
+                </button> -->
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"> <img src="/Docs/Assets/Images/Home/slide1.png" class=" w-full"
+                                alt="">
+                        </div>
+                        <div class="swiper-slide"> <img src="/Docs/Assets/Images/Home/slide2.png" class=" w-full"
+                                alt="">
+                        </div>
+                        <div class="swiper-slide"> <img src="/Docs/Assets/Images/Home/slide3.png" class=" w-full"
+                                alt="">
+                        </div>
+                        <div class="swiper-slide"> <img src="/Docs/Assets/Images/Home/slide4.png" class=" w-full"
+                                alt="">
+                        </div>
+                        <div class="swiper-slide"> <img src="/Docs/Assets/Images/Home/slide1.png" class=" w-full"
+                                alt="">
+                        </div>
+                        <div class="swiper-slide"> <img src="/Docs/Assets/Images/Home/slide2.png" class=" w-full"
+                                alt="">
+                        </div>
+                        <div class="swiper-slide"> <img src="/Docs/Assets/Images/Home/slide3.png" class=" w-full"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="pt-8"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+
+
+
+            </div>
+            <div class="w-full md:max-w-[30%]">
+                <h2 class="md:text-3xl italic text-xl text-[#4f4856]">Unser Partnernetzwerk</h2>
+                <p class="text-[#4f4856] pt-3">
+                    Um Qualitätsarbeit auch seitens der verwendeten Materialien zu garantieren, kommen nur
+                    "Marken-Materialien" zum Einsatz.
+                </p>
+            </div>
+        </div>
+
+
 
         <div class="grid-cols-2 lg:gap-5 gap-4 mt-16 md:grid hidden">
             <div class=" w-full relative overflow-hidden">
@@ -416,7 +500,40 @@
 <script src="/Docs/javascript/navbar.js"></script>
 <script src="/Docs/javascript/footer.js"></script>
 <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
+
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4, // Default for desktop
+    spaceBetween: 30,
+    freeMode: true,
+    autoplay: {
+        delay: 3000, // Autoplay with a 3-second delay
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        // when window width is >= 1024px (Desktop)
+        1024: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+        },
+        // when window width is >= 768px (Tablet / Medium)
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        // when window width is < 768px (Mobile / Small)
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+    }
+});
 
 
     const sliderWrapper = document.getElementById('sliderWrapper');
