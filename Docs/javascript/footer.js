@@ -57,11 +57,11 @@ document.getElementById("footer").innerHTML = `
                     <h2 class="uppercase font-semibold  text-[#333333]">Menü</h2>
 
                     <ul class="sm:mt-4 mt-2 space-y-2">
-                        <li><a href="#" class="hover:underline">Startseite</a></li>
-                        <li><a href="#" class="hover:underline">Über uns</a></li>
-                        <li><a href="#" class="hover:underline">Referenzen</a></li>
-                        <li><a href="#" class="hover:underline">Service</a></li>
-                        <li><a href="#" class="hover:underline">Ausbildung</a></li>
+                        <li><a href="./index.html" class="hover:underline">Startseite</a></li>
+                        <li><a href="./ueber-uns.html" class="hover:underline">Über uns</a></li>
+                        <li><a href="./referenzen.html" class="hover:underline">Referenzen</a></li>
+                        <li><a href="./service.html" class="hover:underline">Service</a></li>
+                        <li><a href="./ausbildung.html" class="hover:underline">Ausbildung</a></li>
                     </ul>
                 </div>
                 <div class="">
@@ -69,13 +69,13 @@ document.getElementById("footer").innerHTML = `
                     </h2>
 
                     <ul class="sm:mt-4 mt-2 space-y-2">
-                        <li><a href="#" class="hover:underline">Fassadensanierung</a></li>
-                        <li><a href="#" class="hover:underline">Betonsanierung</a></li>
-                        <li><a href="#" class="hover:underline">Balkonsanierung</a></li>
-                        <li><a href="#" class="hover:underline">Maler- & Tapezierarbeiten</a></li>
-                        <li><a href="#" class="hover:underline">Treppenhaussanierung</a></li>
-                        <li><a href="#" class="hover:underline">Putzsanierung</a></li>
-                        <li><a href="#" class="hover:underline">Stucksanierung</a></li>
+                        <li><a href="./.html" class="hover:underline">Fassadensanierung</a></li>
+                        <li><a href="./.html" class="hover:underline">Betonsanierung</a></li>
+                        <li><a href="./.html" class="hover:underline">Balkonsanierung</a></li>
+                        <li><a href="./.html" class="hover:underline">Maler- & Tapezierarbeiten</a></li>
+                        <li><a href="./.html" class="hover:underline">Treppenhaussanierung</a></li>
+                        <li><a href="./putzsanierung.html" class="hover:underline">Putzsanierung</a></li>
+                        <li><a href="./stucksanierung-fassaden-berlin.html" class="hover:underline">Stucksanierung</a></li>
                     </ul>
                 </div>
                 <div class="">
