@@ -44,15 +44,15 @@ document.getElementById("navbar").innerHTML = `
                 </a>
 
                 <ul class="xl:flex hidden items-center gap-5 font-semibold text-lg text-[#f8931f]">
-                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">ÜBER UNS</a>
+                    <li><a href="/ueber-uns.html" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">ÜBER UNS</a>
                     </li>
-                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">REFERENZEN</a>
+                    <li><a href="/referenzen.html" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">REFERENZEN</a>
                     </li>
-                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">SERVICE</a></li>
-                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">AUSBILDUNG</a>
+                    <li><a href="/service.html" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">SERVICE</a></li>
+                    <li><a href="/ausbildung.html" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">AUSBILDUNG</a>
                     </li>
-                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">GALERIE</a></li>
-                    <li><a href="#" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">KONTAKT</a></li>
+                    <li><a href="/galerie.html" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">GALERIE</a></li>
+                    <li><a href="/kontakt.html" class="hover:text-[#7f565a] transition-all py-3 duration-500 block">KONTAKT</a></li>
                 </ul>
 
                 <div class="flex xl:hidden items-center justify-center cursor-pointer gap-3 text-white bg-[#7c6498] py-1 px-4 rounded-sm"
@@ -75,23 +75,23 @@ document.getElementById("navbar").innerHTML = `
                             class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
                     <ul
                         class="absolute fastFadeIn bg-[#8670A0] transition-all duration-500 rounded-b-md overflow-hidden">
-                        <li><a href="#"
+                        <li><a href="/.html"
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Beschichtungssysteme</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="/rissarmierung.html"
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Rissarmierung</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="/putzarbeiten-rissursachen.html"
                                 class=" transition-all p-4 px-5 text-nowrap hover:bg-[#63517b] border-b border-white duration-500 block">Putzarbeiten
                                 / Rissursachen</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="/pruefmethoden.html"
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Prüfmethoden</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="/algenbekaempfung.html"
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Algenbekämpfung</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="/graffitibekaempfung.html"
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Graffitibekämpfung</a>
                         </li>
                     </ul>
@@ -102,10 +102,10 @@ document.getElementById("navbar").innerHTML = `
                             class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
                     <ul
                         class="absolute fastFadeIn bg-[#8670A0] transition-all duration-500 rounded-b-md overflow-hidden">
-                        <li><a href="#"
+                        <li><a href="/arbeitsschritte.html"
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Arbeitsschritte</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="/Detailinformationen-zu-Balkonabdichtungen.html"
                                 class=" transition-all text-nowrap p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
                                 zur Betonsanierung</a>
                         </li>
@@ -117,22 +117,22 @@ document.getElementById("navbar").innerHTML = `
                             class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
                     <ul
                         class="absolute fastFadeIn bg-[#8670A0] transition-all duration-500 rounded-b-md overflow-hidden">
-                        <li><a href="#"
+                        <li><a href="/balkonabdichtung.html"
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Balkonabdichtung</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="/Detailinformationen-zu-Balkonabdichtungen.html"
                                 class=" transition-all text-nowrap p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
                                 zu Balkonabdichtungen</a>
                         </li>
-                        <li><a href="#"
+                        <li><a href="/beschreibung-der-problemfelder.html"
                                 class=" transition-all p-4 px-5 text-nowrap hover:bg-[#63517b] border-b border-white duration-500 block">Beschreibung
                                 der Problemfelder...</a>
                         </li>
                     </ul>
                 </li>
-                <li><a href="#" class="hover:text-[#f8931f] transition-all py-5 duration-500 block">PUTZSANIERUNG</a>
+                <li><a href="/putzsanierung.html" class="hover:text-[#f8931f] transition-all py-5 duration-500 block">PUTZSANIERUNG</a>
                 </li>
-                <li><a href="#" class="hover:text-[#f8931f] transition-all py-5 duration-500 block">STUCKSANIERUNG</a>
+                <li><a href="/stucksanierung-fassaden-berlin.html" class="hover:text-[#f8931f] transition-all py-5 duration-500 block">STUCKSANIERUNG</a>
                 </li>
             </ul>
             <i class="fa-solid fa-bars text-white text-2xl cursor-pointer xl:hidden" id="openNav"></i>
@@ -148,25 +148,25 @@ document.getElementById("navbar").innerHTML = `
                     id="arrowRotate">FASSADENSANIERUNG <i
                         class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
                 <ul class=" bg-[#8670A0] fastFadeIn transition-all duration-500 rounded-b-md overflow-hidden">
-                    <li><a href="#"
-                            class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Beschichtungssysteme</a>
-                    </li>
-                    <li><a href="#"
-                            class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Rissarmierung</a>
-                    </li>
-                    <li><a href="#"
-                            class=" transition-all p-4 px-5 text-nowrap hover:bg-[#63517b] border-b border-white duration-500 block">Putzarbeiten
-                            / Rissursachen</a>
-                    </li>
-                    <li><a href="#"
-                            class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Prüfmethoden</a>
-                    </li>
-                    <li><a href="#"
-                            class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Algenbekämpfung</a>
-                    </li>
-                    <li><a href="#"
-                            class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Graffitibekämpfung</a>
-                    </li>
+                    <li><a href="/.html"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Beschichtungssysteme</a>
+                        </li>
+                        <li><a href="/rissarmierung.html"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Rissarmierung</a>
+                        </li>
+                        <li><a href="/putzarbeiten-rissursachen.html"
+                                class=" transition-all p-4 px-5 text-nowrap hover:bg-[#63517b] border-b border-white duration-500 block">Putzarbeiten
+                                / Rissursachen</a>
+                        </li>
+                        <li><a href="/pruefmethoden.html"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Prüfmethoden</a>
+                        </li>
+                        <li><a href="/algenbekaempfung.html"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Algenbekämpfung</a>
+                        </li>
+                        <li><a href="/graffitibekaempfung.html"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Graffitibekämpfung</a>
+                        </li>
                 </ul>
             </li>
             <li id="resDropDown" class="relative cursor-pointer"><a
@@ -174,13 +174,13 @@ document.getElementById("navbar").innerHTML = `
                     id="arrowRotate">BETONSANIERUNG<i
                         class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
                 <ul class=" bg-[#8670A0] fastFadeIn transition-all duration-500 rounded-b-md overflow-hidden">
-                    <li><a href="#"
-                            class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Arbeitsschritte</a>
-                    </li>
-                    <li><a href="#"
-                            class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
-                            zur Betonsanierung</a>
-                    </li>
+                  <li><a href="/arbeitsschritte.html"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Arbeitsschritte</a>
+                        </li>
+                        <li><a href="/Detailinformationen-zu-Balkonabdichtungen.html"
+                                class=" transition-all text-nowrap p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
+                                zur Betonsanierung</a>
+                        </li>
                 </ul>
             </li>
             <li id="resDropDown" class="relative cursor-pointer"><a
@@ -188,22 +188,22 @@ document.getElementById("navbar").innerHTML = `
                     id="arrowRotate">BALKONSANIERUNG
                     <i class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
                 <ul class=" bg-[#8670A0] fastFadeIn transition-all duration-500 rounded-b-md overflow-hidden">
-                    <li><a href="#"
-                            class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Balkonabdichtung</a>
-                    </li>
-                    <li><a href="#"
-                            class=" transition-all  p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
-                            zu Balkonabdichtungen</a>
-                    </li>
-                    <li><a href="#"
-                            class=" transition-all p-4 px-5  hover:bg-[#63517b] border-b border-white duration-500 block">Beschreibung
-                            der Problemfelder...</a>
-                    </li>
+                   <li><a href="/balkonabdichtung.html"
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Balkonabdichtung</a>
+                        </li>
+                        <li><a href="/Detailinformationen-zu-Balkonabdichtungen.html"
+                                class=" transition-all text-nowrap p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
+                                zu Balkonabdichtungen</a>
+                        </li>
+                        <li><a href="/beschreibung-der-problemfelder.html"
+                                class=" transition-all p-4 px-5 text-nowrap hover:bg-[#63517b] border-b border-white duration-500 block">Beschreibung
+                                der Problemfelder...</a>
+                        </li>
                 </ul>
             </li>
-            <li><a href="#" class="hover:text-[#f8931f] transition-all py-5 duration-500 block">PUTZSANIERUNG</a>
+            <li><a href="/putzsanierung.html" class="hover:text-[#f8931f] transition-all py-5 duration-500 block">PUTZSANIERUNG</a>
             </li>
-            <li><a href="#" class="hover:text-[#f8931f] transition-all py-5 duration-500 block">STUCKSANIERUNG</a>
+            <li><a href="/stucksanierung-fassaden-berlin.html" class="hover:text-[#f8931f] transition-all py-5 duration-500 block">STUCKSANIERUNG</a>
             </li>
         </ul>
     </div>
