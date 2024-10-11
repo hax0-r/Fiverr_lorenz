@@ -37,8 +37,8 @@ document.getElementById("navbar").innerHTML = `
         <div class="max-w-7xl w-full mx-auto">
             <div class="flex items-center justify-between gap-3">
                 <a href="/index.html" class="flex md:items-center md:gap-5 gap-3 md:flex-row flex-col">
-                    <img src="/Docs/Assets/Images/Home/logo.png" class="md:max-w-[285px] max-w-[200px] w-full" alt="">
-                    <p class="font-semibold text-[#7f565a] max-w-[15rem] leading-tight md:leading-normal w-full">
+                    <img src="/Docs/Assets/Images/Home/logo.png" class="md:max-w-[285px] sm:max-w-[200px] max-w-[130px] w-full" alt="">
+                    <p class="font-semibold text-[#7f565a] md:max-w-[15rem] max-w-[12rem] leading-tight md:leading-normal w-full">
                         MALERMEISTER & TECHNIKER SEIT ÜBER 40
                         JAHREN</p>
                 </a>
@@ -75,7 +75,7 @@ document.getElementById("navbar").innerHTML = `
                             class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
                     <ul
                         class="absolute fastFadeIn bg-[#8670A0] transition-all duration-500 rounded-b-md overflow-hidden">
-                        <li><a href="/.html"
+                        <li><a href="/beschichtungssysteme.html"
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Beschichtungssysteme</a>
                         </li>
                         <li><a href="/rissarmierung.html"
@@ -148,7 +148,7 @@ document.getElementById("navbar").innerHTML = `
                     id="arrowRotate">FASSADENSANIERUNG <i
                         class="fa-solid fa-angle-down ml-1 transition-transform duration-500"></i></a>
                 <ul class=" bg-[#8670A0] fastFadeIn transition-all duration-500 rounded-b-md overflow-hidden">
-                    <li><a href="/.html"
+                    <li><a href="/beschichtungssysteme.html"
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Beschichtungssysteme</a>
                         </li>
                         <li><a href="/rissarmierung.html"
