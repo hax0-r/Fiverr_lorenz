@@ -35,7 +35,8 @@
         height: 100%;
         object-fit: cover;
     }
-    .swiper-pagination-bullet-active{
+
+    .swiper-pagination-bullet-active {
         background-color: #f8a322;
     }
 </style>
@@ -45,6 +46,35 @@
 
     <div id="navbar"></div>
 
+    <div class="bg-[#f8931f] md:block hidden">
+        <div class="max-w-7xl w-full mx-auto">
+
+            <div class="flex items-center justify-between gap-5">
+
+
+                <!-- slide1 -->
+
+                <div class="max-w-[50%] w-full p-5">
+                    <h2 class="text-white text-4xl italic">Komplettleistungen für Fassade</h2>
+                    <h2 class="text-white text-3xl pt-2 italic">& Innenraum</h2>
+                    <div class="w-full border-b border-white my-3"></div>
+                    <p class="pt-5">Stand am Anfang die Arbeit für Privatkunden im Mittelpunkt, gelang es im Laufe der
+                        Jahre Hausverwaltungen als Stammkunden zu gewinnen, für die die Lorenz Malermeister
+                        Fassadensanierungs- GmbH inzwischen teilweise über 20 Jahre arbeitet. </p>
+                </div>
+                <div class="max-w-[50%] w-full relative flex items-center justify-center ">
+                    <button class="rounded-full bg-white text-2xl w-14 h-14 absolute left-6 bottom-[4.8rem]"><i
+                            class="fa-solid fa-angle-left pt-1 text-[#7c6498]"></i></button>
+                    <button class="rounded-full bg-white text-2xl w-14 h-14 absolute left-14 top-[4.8rem]"><i
+                            class="fa-solid fa-angle-left pb-0.5 text-[#7c6498] rotate-180"></i></button>
+                    <img src="/Docs/Assets/Images/Home/side1.jpg" class="w-full" alt="">
+                </div>
+                <!-- other slides -->
+
+            </div>
+
+        </div>
+    </div>
 
 
     <div class="max-w-7xl w-full mx-auto p-5">
@@ -504,36 +534,36 @@
 <script>
 
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 4, // Default for desktop
-    spaceBetween: 30,
-    freeMode: true,
-    autoplay: {
-        delay: 3000, // Autoplay with a 3-second delay
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    breakpoints: {
-        // when window width is >= 1024px (Desktop)
-        1024: {
-            slidesPerView: 4,
-            spaceBetween: 30,
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4, // Default for desktop
+        spaceBetween: 30,
+        freeMode: true,
+        autoplay: {
+            delay: 3000, // Autoplay with a 3-second delay
+            disableOnInteraction: false,
         },
-        // when window width is >= 768px (Tablet / Medium)
-        768: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
         },
-        // when window width is < 768px (Mobile / Small)
-        0: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-        },
-    }
-});
+        breakpoints: {
+            // when window width is >= 1024px (Desktop)
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 30,
+            },
+            // when window width is >= 768px (Tablet / Medium)
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            // when window width is < 768px (Mobile / Small)
+            0: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+        }
+    });
 
 
     const sliderWrapper = document.getElementById('sliderWrapper');
