@@ -59,6 +59,22 @@
         opacity: 1;
     }
 }
+.superFastFadeIn {
+    animation: superFastFadeIn 0.5s;
+    z-index: 99999;
+}
+
+@keyframes superFastFadeIn {
+    0% {
+        z-index: 99999;
+        opacity: 0;
+    }
+    
+    100% {
+        z-index: 99999;
+        opacity: 1;
+    }
+}
 
 .myShadow {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
