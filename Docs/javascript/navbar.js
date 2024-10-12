@@ -178,7 +178,7 @@ document.getElementById("navbar").innerHTML = `
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Arbeitsschritte</a>
                         </li>
                         <li><a href="/Detailinformationen-zu-Balkonabdichtungen.html"
-                                class=" transition-all text-nowrap p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
                                 zur Betonsanierung</a>
                         </li>
                 </ul>
@@ -192,7 +192,7 @@ document.getElementById("navbar").innerHTML = `
                                 class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Balkonabdichtung</a>
                         </li>
                         <li><a href="/Detailinformationen-zu-Balkonabdichtungen.html"
-                                class=" transition-all text-nowrap p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
+                                class=" transition-all p-4 px-5 hover:bg-[#63517b] border-b border-white duration-500 block">Detailinformationen
                                 zu Balkonabdichtungen</a>
                         </li>
                         <li><a href="/beschreibung-der-problemfelder.html"

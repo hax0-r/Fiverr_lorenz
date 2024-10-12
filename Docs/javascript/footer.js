@@ -28,7 +28,7 @@ document.getElementById("footer").innerHTML = `
     </div>
 
     <div class="bg-[#7c6498]">
-        <p class="max-w-7xl w-full mx-auto text-white p-2">
+        <p class="max-w-7xl w-full mx-auto md:text-start text-center text-white p-2">
             © 2024 Lorenz Malermeister Fassadensanierungs- GmbH | Webdesign: <a href="" class="hover:underline">Zahn
                 Internet Consult</a>
         </p>
