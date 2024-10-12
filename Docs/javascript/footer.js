@@ -69,11 +69,11 @@ document.getElementById("footer").innerHTML = `
                     </h2>
 
                     <ul class="sm:mt-4 mt-2 space-y-2">
-                        <li><a href="./.html" class="hover:underline">Fassadensanierung</a></li>
-                        <li><a href="./.html" class="hover:underline">Betonsanierung</a></li>
-                        <li><a href="./.html" class="hover:underline">Balkonsanierung</a></li>
-                        <li><a href="./.html" class="hover:underline">Maler- & Tapezierarbeiten</a></li>
-                        <li><a href="./.html" class="hover:underline">Treppenhaussanierung</a></li>
+                        <li><a href="./fassadensanierung.html" class="hover:underline">Fassadensanierung</a></li>
+                        <li><a href="./betoninstandsetzung-betonsanierung-berlin.html" class="hover:underline">Betonsanierung</a></li>
+                        <li><a href="./balkonsanierung-berlin.html" class="hover:underline">Balkonsanierung</a></li>
+                        <li><a href="./maler-tapezierarbeiten-berlin-brandenburg.html" class="hover:underline">Maler- & Tapezierarbeiten</a></li>
+                        <li><a href="./treppenhaussanierung.html" class="hover:underline">Treppenhaussanierung</a></li>
                         <li><a href="./putzsanierung.html" class="hover:underline">Putzsanierung</a></li>
                         <li><a href="./stucksanierung-fassaden-berlin.html" class="hover:underline">Stucksanierung</a></li>
                     </ul>
@@ -82,8 +82,8 @@ document.getElementById("footer").innerHTML = `
                     <h2 class="uppercase font-semibold  text-[#333333]">Meta</h2>
 
                     <ul class="sm:mt-4 mt-2 space-y-2">
-                        <li><a href="#" class="hover:underline">Impressum</a></li>
-                        <li><a href="#" class="hover:underline">Datenschutz</a></li>
+                        <li><a href="./impressum.html" class="hover:underline">Impressum</a></li>
+                        <li><a href="./datenschutz.html" class="hover:underline">Datenschutz</a></li>
                     </ul>
                 </div>
 
