@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fassadensanierung Berlin Fassadeninstandsetzung Brandenburg - Fassadeninstandsetzung Berlin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .swipers {
+        width: 100%;
+        height: 100%;
+        background: #f8931f;
+    }
+
+    .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+
+<body>
+
+    <div class="swipers relative">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="max-w-[50%] w-full p-5">
+                    <h2 class="text-white text-4xl italic">Komplettleistungen für Fassade</h2>
+                    <h2 class="text-white text-3xl pt-2 italic">& Innenraum</h2>
+                    <div class="w-full border-b border-white my-3"></div>
+                    <p class="pt-5">Stand am Anfang die Arbeit für Privatkunden im Mittelpunkt, gelang es im Laufe der
+                        Jahre Hausverwaltungen als Stammkunden zu gewinnen, für die die Lorenz Malermeister
+                        Fassadensanierungs- GmbH inzwischen teilweise über 20 Jahre arbeitet. </p>
+                </div>
+                <div class="max-w-[50%] w-full relative flex items-center justify-center ">
+                    <img src="/Docs/Assets/Images/Home/side1.jpg" class="w-full" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">slide2</div>
+            <div class="swiper-slide">slide3</div>
+            <div class="swiper-slide">slide4</div>
+        </div>
+
+        <div class="flex items-center justify-center absolute z-10 top-0 w-full flex-col h-full gap-5">
+            <div class="flex items-center justify-center relative z-10 top-0 w-full flex-col h-full gap-5">
+                <button
+                    class="rounded-full absolute  bg-white text-2xl w-14 h-14 left-[52.3%] bottom-[5.5rem]  z-20 swiperbuttonprev"><i
+                        class="fa-solid fa-angle-left pt-1 text-[#7c6498]"></i></button>
+                <button class="rounded-full absolute  bg-white text-2xl w-14 h-14 left-[55%] top-[5.5rem] z-20 swiperbuttonnext"><i
+                        class="fa-solid fa-angle-left text-[#7c6498] rotate-180"></i></button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swipers', {
+        navigation: {
+            nextEl: '.swiperbuttonnext',
+            prevEl: '.swiperbuttonprev',
+        }
+    })
+</script>
+
+</html>
