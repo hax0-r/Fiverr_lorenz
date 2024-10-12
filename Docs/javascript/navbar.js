@@ -65,7 +65,7 @@ document.getElementById("navbar").innerHTML = `
 
     <div class="md:px-10 px-5  bg-[#7c6498] sticky top-0 z-50 border-b">
         <div class="max-w-7xl w-full mx-auto flex items-center justify-between transition-all duration-500">
-            <img src="/Docs/Assets/Images/Home/whiteLogo.png"
+            <img src="/Docs/Assets/Images/Home/whiteLogo.webp"
                 class="max-w-[150px] xl:hidden w-full fastFadeIn py-4 transition-all duration-500" id="whiteLogo"
                 alt="">
             <ul class="xl:flex hidden items-center gap-10 font-semibold text-[#ffffff] transition-all duration-500">
